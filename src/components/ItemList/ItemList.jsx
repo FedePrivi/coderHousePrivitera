@@ -1,4 +1,4 @@
-import { Item } from "../components/ItemList/Item"
+import { Item } from "../Item/Item"
 
 
 export const ItemList = ({ products })  => {

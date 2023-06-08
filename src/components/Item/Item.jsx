@@ -2,7 +2,6 @@ import { Link } from "react-router-dom"
 
 export const Item = (props) => {
 
-    console.log(props.id);
 
     return(
 

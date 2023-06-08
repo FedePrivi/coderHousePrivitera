@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { getProducts, getProductsByCategory } from "../../asyncMock"
-import { ItemList } from "../../ItemList/ItemList";
+import { ItemList } from "../ItemList/ItemList";
 import { useParams } from "react-router-dom";
 
 
@@ -11,10 +11,8 @@ export const ItemListContainer = () => {
 
   const { categoryId } = useParams()
 
-  
 
-   console.log(categoryId)
-   console.log("render")
+
 
 useEffect(() => {
 

@@ -25,6 +25,7 @@ export const NavBar = () => {
                             <NavLink to={`category/botines`} className="btn btn-outline-primary w-25"> Botines </NavLink>
                             <NavLink to={`category/pelotas`} className="btn btn-outline-primary w-25"> Pelotas </NavLink>
 
+
                         </div>
 
                 
