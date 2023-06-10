@@ -2,11 +2,15 @@
 
 Es una app con fines educativos que se realizo en el bootcamp de coderHouse en el curso de react.
 
+
 ## Demo
 
 https://ecommercecodermundosport.netlify.app/
 
 ## Vista previa
+
+![ProyectoEcommerceCoderhouseGIF](https://github.com/FedePrivi/coderHousePrivitera/assets/101677179/1cf7446b-7388-4900-b9dc-c24585a82413)
+
 
 ![image](https://github.com/FedePrivi/coderHousePrivitera/assets/101677179/cd2882ac-1e15-4ed4-b576-2996f6ec3027)
 
