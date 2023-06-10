@@ -1,10 +1,49 @@
-# Getting Started with Create React App
+# Ecommerce Mundo Sport
+
+Es una app con fines educativos que se realizo en el bootcamp de coderHouse en el curso de react.
+
+## Demo
+
+https://ecommercecodermundosport.netlify.app/
+
+## Vista previa
+
+![image](https://github.com/FedePrivi/coderHousePrivitera/assets/101677179/cd2882ac-1e15-4ed4-b576-2996f6ec3027)
+
+##Tecnologias Utilizadas
+
+-React
+-Bootstrap (Para los estilos)
+-Firestore (Base de datos)
+
+##Instalacion
+
+1. Clona el repositorio ### git clone https://github.com/FedePrivi/coderHousePrivitera.git
+2. Navega a la carpeta del proyecto
+3. Ejecutar el siguiente npm script para instalar las dependencias:
+  
+    ### npm install
+  
+# Autor
+
+-Federico Privitera
+    
+# Agradecimientos
+
+-Adrian Solimano (Profesor de la cursada)
+-Federico Blautzik (Tutor asignado) Contacto: fedeblau+tutor@gmail.com
+
+# Creada con Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm install`
+
+Para que se instalen las dependencias necesarias para correr la app
 
 ### `npm start`
 
