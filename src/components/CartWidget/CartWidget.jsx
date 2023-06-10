@@ -8,7 +8,7 @@ export const CartWidget = () => {
 
     const {totalQuantity} = useContext(CartContext)
 
-    console.log(totalQuantity)
+    
 
     return (
 

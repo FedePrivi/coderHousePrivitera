@@ -5,6 +5,8 @@ import { CartContext } from "../../context/CartContext"
 
 export const ItemDetail = (props) => {
 
+
+
   const [quantityAdded, setQuantityAdded] = useState(0)
 
 
@@ -16,8 +18,8 @@ export const ItemDetail = (props) => {
 
             const item = {
             id:props.id,
-            name: props.nombre,
-            price:props.precio,     
+            name: props.title,
+            price:props.price,     
             }
             
             addItem(item, cantidad)
@@ -25,12 +27,13 @@ export const ItemDetail = (props) => {
         }
 
   return (
-    <article className="card mb-3 mt-3" style={{width: "18rem", height: "500px"}}>
+    <article className="card mb-3 mt-3" style={{width: "18rem", height: "520px"}}>
                     <main>
-                        <img src={props.img} className="card-img-top" alt={props.nombre} />
+                        <img src={props.image} className="card-img-top" alt={props.title} />
                         <div className="card-body">
-                            <h5 className="title text-center"> {props.nombre} </h5>
-                            <p className="card-text ms-3">Precio: ${props.precio}</p>
+                            <h5 className="title text-center"> {props.title} </h5>
+                            <h6 className="title text-center"> {props.description} </h6>
+                            <p className="card-text ms-3">Precio: ${props.price}</p>
                         </div>
                     </main>
        <footer className="w-100">

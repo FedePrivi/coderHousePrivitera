@@ -5,6 +5,11 @@ export const Item = (props) => {
 
     return(
 
+       
+
+ 
+
+
         <div className="card mt-2" style={{width: "18rem"}}>
             <main>
                 <img src={props.imagen} className="card-img-top" alt={props.alt}/>
@@ -18,6 +23,6 @@ export const Item = (props) => {
             </footer>
 
         </div>
-
+        
     )
 }

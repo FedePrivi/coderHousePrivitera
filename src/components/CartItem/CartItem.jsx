@@ -7,6 +7,7 @@ const CartItem = ({name, price, quantity, id}) => {
 const {removeItem} = useContext(CartContext)
 
 
+
     return (
         
            <li className="bg-dark text-white p-3 rounded d-flex align-items-center justify-content-around mt-1">
